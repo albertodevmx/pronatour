@@ -1,0 +1,7 @@
+header {
+    background: #fff url('./assets/img/elementos/patron_encabezado.png') ;
+}
+
+.w-100 {
+    width: 100%!important;
+}
