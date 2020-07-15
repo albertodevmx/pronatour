@@ -178,34 +178,34 @@
         var pantallaCompleta = false;
         var elemento = null;
 
-        $('.agrandar').on('click', function () {
-                // console.log($(this).attr('src'))
+        // $('.agrandar').on('click', function () {
+        //         // console.log($(this).attr('src'))
 
-                let elem = $(this)[0]
-                elemento = $(this)[0]
-
-
-                if (elem.requestFullscreen) {
-                    elem.requestFullscreen();
-                    pantallaCompleta = true;
-                } else if (elem.mozRequestFullScreen) { /* Firefox */
-                    elem.mozRequestFullScreen();
-                    pantallaCompleta = true;
-                } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                    elem.webkitRequestFullscreen();
-                    pantallaCompleta = true;
-                } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                    elem.msRequestFullscreen();
-                    pantallaCompleta = true;
-                }
-        })
+        //         let elem = $(this)[0]
+        //         elemento = $(this)[0]
 
 
-        $(document).on('click', function(){
-            if (document.fullscreenElement) {
-                document.exitFullscreen();
-            }
-        })
+        //         if (elem.requestFullscreen) {
+        //             elem.requestFullscreen();
+        //             pantallaCompleta = true;
+        //         } else if (elem.mozRequestFullScreen) { /* Firefox */
+        //             elem.mozRequestFullScreen();
+        //             pantallaCompleta = true;
+        //         } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        //             elem.webkitRequestFullscreen();
+        //             pantallaCompleta = true;
+        //         } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        //             elem.msRequestFullscreen();
+        //             pantallaCompleta = true;
+        //         }
+        // })
+
+
+        // $(document).on('click', function(){
+        //     if (document.fullscreenElement) {
+        //         document.exitFullscreen();
+        //     }
+        // })
 
 // function open(){
 //     console.log( $this[0] );
